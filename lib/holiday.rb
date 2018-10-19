@@ -93,7 +93,8 @@ def all_holidays_with_bbq(holiday_hash)
   string = []
   holiday_hash.collect do |season, holidays|
     if holidays.values.include?("BBQ")
-      holidays
+      string << holidays
     end
   end
+  string
 end
