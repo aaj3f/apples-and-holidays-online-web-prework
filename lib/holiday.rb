@@ -98,4 +98,5 @@ def all_holidays_with_bbq(holiday_hash)
       string << holidays.keys
     end
   end
+  string
 end
